@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+.header-wrapper{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+  width: 300px;
+  height: 85px;
+}
+.logo-wrapper{
+  position: relative;
+}
+.logo-text{
+  position: absolute;
+  inset: 40px 0px 0px 85px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.flag-wrapper{
+  display: flex;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+.flag{
+  width: 60px;
+  height: 50px;
+  margin-right: 7px;
+
+}
+.text-flag{
+  font-weight: 700;
+  font-size: 14px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  height: 50px;
+}
+.contact{
+  padding: 9px;
+  background-color: #039B13;
+  border-radius: 10px;
+}
+.navbar li a{
+  color: white;
+  font-weight: bold;
+}
+.navbar-items:hover{
+  border-bottom: 3px solid #039B13;
+}
+.arrow{
+  color: white;
+  transform: translate(0px,3px);
+}
+
+.dropdown-content li a{
+  color: black;
+}
+
+.dropdown-content-items{
+  display: flex;
+  
+}
+.menu-1{
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  min-width: 200px;
+  min-height: 80px;
+  margin-top: 5px;
+}
+
+.dropdown-1:hover .menu-1{
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.header{
+  background-image: url('/images/header_image.png');
+  background-size: cover;
+  background-position: center;
+
+  height: 700px;
+}
+.dropdown-content .dropdown-content-items{
+  margin: 0.75rem;
+}
+
+.head-title{
+  color: white;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-size: 40px;
+
+}
+.header-content{
+  transform: translate(700px,150px);
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+.header-content a{
+
+  background-color: #039B13;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+
+}
