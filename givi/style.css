@@ -50,15 +50,20 @@
 
 .navbar{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: black;
   align-items: center;
   height: 50px;
 }
+.navbar li{
+  margin: 20px;
+}
+
 .contact{
   padding: 9px;
   background-color: #039B13;
   border-radius: 10px;
+  margin-left: 305px !important;
 }
 .navbar li a{
   color: white;
@@ -83,9 +88,8 @@
 .menu-1{
   display: none;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-  min-width: 200px;
-  min-height: 80px;
-  margin-top: 5px;
+  min-width: 150px;
+  min-height: 20px;
 }
 
 .dropdown-1:hover .menu-1{
@@ -98,7 +102,7 @@
   background-image: url('/images/header_image.png');
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 583px;
 }
 .dropdown-content .dropdown-content-items{
   margin: 0.75rem;
@@ -112,7 +116,7 @@
 
 }
 .header-content{
-  transform: translate(700px,150px);
+  transform: translate(800px,150px);
   width: 600px;
   height: 400px;
   text-align: center;
@@ -126,4 +130,69 @@
   color: white;
   font-weight: bold;
 
+}
+
+.programme{
+  height: 600px;
+}
+.section-title{
+  border-left: 6px solid #039B13;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.prog1-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.prog1-wrapper img{
+  width: 400px;
+  height: 200px;
+}
+.prog-content{
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  padding: 40px;
+  width: 400px;
+}
+.viande-button{
+  color: #039B13;
+  font-weight: bold;
+}
+.prog-viande-title{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.left{
+    margin-left: 200px;
+}
+.right{
+  margin-right: 150px;
+}
+.mission{
+  height: 800px;
+}
+.missions-wrapper{
+  display: flex;
+}
+.missions-wrapper img{
+  width: 350px;
+  height: 600px;
+  margin-left:288px ;
+}
+.mission-content{
+  margin-left: 20px;
+}
+.mission-content h4{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.meat{
+  height: 50px;
+  width: 200px;
 }
