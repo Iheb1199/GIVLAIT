@@ -27,7 +27,7 @@
   position: absolute;
   inset: 40px 0px 0px 85px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
 }
 .flag-wrapper{
@@ -43,7 +43,7 @@
 }
 .text-flag{
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   width: 250px;
   height: 50px;
   cursor: pointer;
@@ -177,11 +177,18 @@
 .viande-button{
   color: #039B13;
   font-weight: bold;
+
 }
 .prog-viande-title{
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 27px;
+}
+
+.f-size{
+  font-size: 35px;
+  
 }
 .prog-lait-content{
   height: 237px;
@@ -215,12 +222,16 @@
 .mission-content h4{
   font-size: 20px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
 }
+
+
 #meat{
   display: block;
-  height: 250px;
-  width: 350px;
+  height: 290px;
+  width: 550px;
   margin-top: 50px;
   margin-left: -1px;
 }
