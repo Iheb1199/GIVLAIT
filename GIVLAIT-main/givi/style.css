@@ -55,6 +55,7 @@
   background-color: black;
   align-items: center;
   height: 50px;
+  margin-top: 20px;
 }
 .navbar li{
   margin: 20px;
@@ -77,6 +78,9 @@
   color: white;
   transform: translate(0px,3px);
 }
+#item-2{
+  margin-top: -35px;
+}
 
 .dropdown-content li a{
   color: black;
@@ -86,11 +90,15 @@
   display: flex;
   
 }
+.dropdown-content-items li{
+  transform: translate(-18px,-22px);
+
+}
 .menu-1{
   display: none;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-  min-width: 150px;
-  min-height: 20px;
+  height: 80px;
+
 }
 
 .dropdown-1:hover .menu-1{
@@ -151,7 +159,7 @@
 }
 .prog1-wrapper img{
   width: 400px;
-  height: 200px;
+  height: 225px;
 }
 .prog-content{
   border: 2px solid black;
@@ -167,6 +175,15 @@
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 30px;
+}
+.prog-lait-content{
+  height: 237px;
+  margin-top: 40px;
+
+}
+.viande{
+  margin-top: 40px;
+  height: 240px !important;
 }
 .left{
     margin-left: 200px;
@@ -193,9 +210,11 @@
   font-weight: bold;
   margin-top: 10px;
 }
-.meat{
-  height: 50px;
-  width: 200px;
+#meat{
+  height: 250px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: -1px;
 }
 
 
