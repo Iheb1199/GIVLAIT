@@ -107,3 +107,64 @@ hr{
 .marches-content ul li::marker{
   color: var(--vgv);
 }
+
+
+.abattoirs{
+  margin-top: 100px;
+}
+.abattoirs-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.abattoirs-content img{
+  width: 400px;
+}
+.abattoirs-content p{
+  width: 450px;
+  line-height: 50px;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.commercialisation{
+  margin-top: 100px;
+  height: 1000px;
+}
+#first-p{
+  margin-top: 125px;
+}
+
+.commercialisation p,h6,h4{
+  line-height: 50px;
+  font-size: 20px;
+  margin-left:175px;
+
+}
+
+.commercialisation h4{
+  font-size: 25px;
+  color: var(--vgv);
+}
+.commercialisation h6{
+  font-size: 20px;
+  color: var(--vgv);
+}
+#grossistes{
+  width: 1150px;
+}
+
+.commercialisation img{
+  width: 450px;
+  margin-left:450px;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+}
+.images img{
+  width: 400px;
+
+}
+.balance{
+}
