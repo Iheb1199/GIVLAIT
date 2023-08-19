@@ -1,0 +1,45 @@
+
+:root{
+  --vgv: #039B13;
+  --vwv: white; 
+}
+
+
+.lait-header{
+  background-image: url("images/lait_cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height:583px;
+}
+
+.title{
+  color: var(--vgv);
+  margin-left: 125px;
+  font-size: 70px;
+  transform: translate(0px,50px);
+ 
+}
+
+.line{
+  color: var(--vgv);
+  border: 2px solid var(--vgv);
+  width: 200px;
+  margin-left: 125px ;
+  transform: translate(0px,50px);
+ 
+
+ 
+}
+
+.header-text{
+  width: 500px;
+  color: var(--vwv);
+  line-height: 35px;
+  margin-left: 125px;
+  margin-top: 110px;
+}
+
+.maillons-image{
+  width: 1000px;
+  height: 800px;
+}
