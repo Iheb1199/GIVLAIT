@@ -24,7 +24,7 @@
       <ul id="br-nav">
         <li class="item-nav parent"><span class="it-hv"><a href="index.html" id="item-giv">GIVLAIT</a><img class="ic-dp" src="images/dropdown.png"></span>
           <div class="fils" id="dp-giv">
-              <a href="#" class="item-dp" id="item-og" style="color: black; font-size: 15px; font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Organigramme</a>
+              <a href="prgiv.html#tt-org" class="item-dp" id="item-og" style="color: black; font-size: 15px; font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Organigramme</a>
           </div> 
         </li>
         <li class="item-nav parent"><span class="it-hv"><a href="index.html#Programmes" id="item-pg">Programmes</a><img class="ic-dp" src="images/dropdown.png"></span>
@@ -44,8 +44,8 @@
         <li class="item-nav parent"><span class="it-hv"><a href="index.html#Élevage-Filières" id="item-vd">Viandes Rouges</a><img class="ic-dp" src="images/dropdown.png"></span>
           <div class="fils" id="dp-vd">
             <ul>
-              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" class="item-dp itm-ml" id="ml-vd" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons<a/></li> 
-              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="itm-asp" class="item-dp" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Aspects Réglementaires<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Institutionnels</a></li>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="viandes.html#tt-ml" class="item-dp itm-ml" id="ml-vd" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons<a/></li> 
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="viandes.html#tt-asp" id="itm-asp" class="item-dp" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Aspects Réglementaires<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Institutionnels</a></li>
               <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="st-vd" class="item-dp it-st" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
               <li style="display: block;"><a href="#" id="dc-vd" class="item-dp it-dc" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Documents</a></li>
             </ul>
@@ -109,21 +109,21 @@
     </div>
     <div id="ctn-ft">  
         <div id="liens-ft" class="item-ft"> 
-          <a href="index.html" id="li-gv" class="lien-gr lien">GIVLAIT</a>
-          <a href="#" class="slien li-pr lien">Présentation</a>
-          <a href="#" id="li-og" class="slien lien">Organigramme</a>
+          <a href="prgiv.html" id="li-gv" class="lien-gr lien">GIVLAIT</a>
+          <a href="prgiv.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="prgiv.html#tt-org" id="li-og" class="slien lien">Organigramme</a>
           <a href="programmes.html" id="li-pg" class="lien-gr lien">Programmes</a>
-          <a href="programmes.html#para-intro" class="slien li-pr lien">Présentation</a>
+          <a href="programmes.html#br-nav" class="slien li-pr lien">Présentation</a>
           <a href="#" id="li-rg" class="slien lien">Réglementations</a>
           <a href="missions.html" id="li-ms" class="lien-gr lien">Missions</a>
-          <a href="missions.html#tir-pg" class="slien li-pr lien">Présentation</a>
+          <a href="#br-nav" class="slien li-pr lien">Présentation</a>
           <a href="#" id="li-el" class="lien-gr lien">Élevage</a>
           <a href="#" id="li-sy" class="slien lien">Systèmes d'élevage<br>et types d'exploitation</a> 
           <a href="#"class="slien li-st lien">Statistiques</a> 
-          <a href="#" id="li-vd" class="lien-gr lien">Viandes Rouges</a>
-          <a href="#" class="slien li-pr lien">Présentation</a>
-          <a href="#" class="slien liml lien">Maillons</a> 
-          <a href="#" id="li-asp" class="slien lien">Aspects Réglementaires<br>et Instituionnels</a>
+          <a href="viandes.html" id="li-vd" class="lien-gr lien">Viandes Rouges</a>
+          <a href="viandes.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="viandes.html#tt-ml" class="slien liml lien">Maillons</a> 
+          <a href="viandes.html#tt-asp" id="li-asp" class="slien lien">Aspects Réglementaires<br>et Instituionnels</a>
           <a href="#"class="slien li-dc lien">Documents</a>
           <a href="#"class="slien li-st lien">Statistiques</a>
           <a href="#" id="li-lt" class="lien-gr lien">Lait</a>
@@ -423,6 +423,8 @@
     })
     sessionStorage.setItem("pagea", "non");
     sessionStorage.setItem("pagpg", "non");
+    sessionStorage.setItem("pagvd", "non");
+    sessionStorage.setItem("paggv", "non");
     document.getElementById('im-fr').addEventListener('click', function(){
       if (sessionStorage.getItem('buttonClicked') === 'true') 
       window.location.href = "missions.html";

@@ -3,7 +3,6 @@
   padding: 0;
   text-decoration: none;
   scroll-behavior: smooth;
-  list-style: none;
   font-family: 'Lato'; 
   box-sizing: border-box; 
 }
@@ -69,16 +68,16 @@
   padding-bottom: 15px; 
 }
 
-body 
-{
-  position: relative;
-}
-
 nav
 {
   position: sticky;
   top: 0;
   z-index: 1; 
+}
+
+nav ul
+{
+  list-style: none;
 }
 
 .item-nav 
@@ -434,8 +433,8 @@ nav ul li a
   border: solid 1px white;
   border-top-left-radius: 10px; 
   border-bottom-right-radius: 10px;
-  transition: 1s ease;
 }
+
 
 #btnfl-vd 
 {
@@ -453,7 +452,6 @@ nav ul li a
   border: solid 1px var(--vgv); 
   border-top-left-radius: 10px; 
   border-bottom-right-radius: 10px;
-  transition: 1s ease;
 }
 
 .btn-fl:hover, .msv:hover 
@@ -462,6 +460,7 @@ nav ul li a
   border-bottom-right-radius: 0; 
   border-top-right-radius: 10px; 
   border-bottom-left-radius: 10px;
+  transition: 1s ease;
 }
 
 .viande{
