@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="tt-pg">GIVLAIT | Élevage</title> 
+  <link rel="icon" type="image/x-icon" href="images/favicone.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="elevage.css">
+</head>
+<body>
+	<div>
+    <div class="header-wrapper">
+      <div class="logo-wrapper">
+        <a href="index.html"><img src="images/Rectangle 89.png" class="logo"></a>
+        <a href="index.html" class="logo-text">Groupement Interprofessionnel<br>des Viandes Rouges et du Lait</a>
+      </div>
+      <div class="flag-wrapper">
+        <img class="flag" src="images/Tunisia flag.png">
+        <div class="text-flag">République Tunisienne<br>Ministère de l’Agricultutre, des Ressources Hydrauliques et de la Pêche</div>
+      </div>
+    </div>
+  </div>
+  <nav>
+      <ul id="br-nav">
+        <li class="item-nav parent"><span class="it-hv"><a href="index.html" id="item-giv">GIVLAIT</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-giv">
+              <a href="prgiv.html#tt-org" class="item-dp" id="item-og" style="color: black; font-size: 15px; font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Organigramme</a>
+          </div> 
+        </li>
+        <li class="item-nav parent"><span class="it-hv"><a href="index.html#Programmes" id="item-pg">Programmes</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-pg">
+            <a href="#" id="item-rg" class="item-dp" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Réglementations</a>
+          </div>
+        </li>
+        <li id="anm-sl" class="item-nav"><a href="index.html#Missions" id="item-ms">Missions</a></li> 
+        <li class="item-nav parent"><span class="it-hv"><a href="index.html#Élevage-Filières" id="item-el">Élevage</a><img id="icdp-el" class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-el">
+            <ul> 
+              <li style="display: block; margin-bottom: 10px;"><a href="#para-int" id="st-el" class="item-dp" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Systèmes d'Élevage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Types d'Exploitation</a></li>
+              <li style="display: block;"><a href="#" class="item-dp it-st" id="stel" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
+            </ul>
+          </div>
+        </li> 
+        <li class="item-nav parent"><span class="it-hv"><a href="index.html#Élevage-Filières" id="item-vd">Viandes Rouges</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-vd">
+            <ul>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="viandes.html#tt-ml" class="item-dp itm-ml" id="ml-vd" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons<a/></li> 
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="viandes.html#tt-asp" id="itm-asp" class="item-dp" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Aspects Réglementaires<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Institutionnels</a></li>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="st-vd" class="item-dp it-st" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
+              <li style="display: block;"><a href="#" id="dc-vd" class="item-dp it-dc" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Documents</a></li>
+            </ul>
+          </div>
+        </li> 
+        <li id="it-lat" class="item-nav parent"><span class="it-hv"><a href="index.html#Élevage-Filières" id="item-lt">Lait</a><img id="ic-lt" class="ic-dp" src="images/dropdown.png"></span>
+          <div id="dp-lt" class="fils">
+            <ul>
+               <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="ml-lt" class="item-dp itm-ml" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons</a></li>
+              <li style="display: block;"><a href="#"  id="dc-lt" class="item-dp it-dc" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Documents</a></li>
+            </ul>
+          </div>
+        </li>
+        <li id="lgs"><button id="im-ar" onclick="arabestt();arabest();arabe();">AR</button> | <a id="im-fr" style="cursor: pointer;">FR</a></li>
+        <li id="contact"><a href="#" id="item-ct">Contact</a></li>
+      </ul>  
+    </nav>
+    <h1 id="tt-el">Secteur de l'élevage</h1>
+    <div id="para-int">
+      L’élevage en Tunisie occupe une place importante dans l’économie tunisienne du fait qu’il contribue à raison de :
+      <ul class="ls">
+        <li>35-40 % du PIB agricole.</li> 
+        <li>4-5 % du PIB global.</li>
+      </ul>
+    </div>
+    <section>
+      <h1 id="tt-et">Les systèmes d’élevage et types d'exploitation</h1>
+      <div>
+        <h1 id="tit-se" class="tt-div">Les systèmes d’élevage</h1>
+        <div>
+          <h1 class="tt-se" id="tt-it">Élevage intensif intégré et organisé</h1>
+          <div class="para-e">
+            <div id="para-it">
+              Ce système est caractérisé par :
+              <ul class="ls">
+                <li>Une alimentation basée sur le fourrage vert et l’ensilage.</li>
+                <li>Un taux d’intégration de l’élevage à l’agriculture est élevé.</li>
+              </ul>
+              Et il :
+              <ul class="ls">
+                <li>Concerne l’élevage laitier.</li> 
+                <li>Regroupe les grandes exploitations du nord.</li>
+                <li>regroupe 20% des éleveurs laitiers.</li>
+              </ul>
+            </div>
+            <img class="im" src="images/elit.jpg">
+          </div>
+        </div>
+        <div>
+          <h1 class="tt-se" id="tt-se">Élevage semi-intensif ou non intégré</h1>
+          <div class="para-e">
+            <div id="para-se">
+              La particularité de ce système c’est qu’il est : 
+              <ul class="ls">
+                <li>Pratiqué pour l’engraissement des taurillons.</li> 
+                <li>Développé dans le nord ouest.</li>
+              </ul>
+            </div>
+            <img class="im" src="images/elsm.jpg">
+          </div>
+        </div>
+        <div>
+          <h1 class="tt-se" id="tt-hs">Élevage "hors sol"</h1>
+          <div class="para-e">
+            <div id="para-hs">
+              Ce système est pratiqué en dehors des surfaces agricoles, et il est : 
+              <ul class="ls">
+                <li>Développé dans le centre du pays.</li> 
+                <li>Concerne 50% des élevages laitiers.</li> 
+                <li>Présente 22% de tout l’élevage bovin.</li>
+              </ul>
+            </div>
+            <img class="im" src="images/eltr.jpg">
+          </div>
+        </div>
+        <div>
+          <h1 class="tt-se" id="tt-tr">Élevage traditionnel ou extensif</h1>
+          <div class="para-e">
+            <div id="para-tr">
+              Dans ce type d’élevage, l’alimentation basée sur les parcours, moyennant une complémentation durant la période difficile.
+            </div>
+            <img class="im" src="images/elhs.jpg">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 id="tit-te" class="tt-div">Types d’exploitation</h1>
+        <div class="para-e">
+          <div id="para-te">
+            Les différents types d’exploitation rencontrés dans l’agriculture tunisienne sont classés comme suit :
+            <ul class="ls">
+              <li>85 % des exploitants agricoles possèdent des superficies < 20 Ha.</li>
+              <li>46 % des exploitants agricoles possèdent des superficies < 5 Ha.</li>
+              <li>Les exploitations < 20 Ha couvrent moins des 40 % des surfaces cultivées dans le pays mais assurent 60 % de l’élevage car elles abritent 2/3 des bovins et plus de 50 % des petits ruminants.</li>
+            </ul>
+          </div>
+          <img class="im" src="images/te.jpg"> 
+        </div>
+      </div>
+    </section>
+    <footer> 
+    <div id="ct-logo">   
+      <img src="images/logo.png">
+      <span id="grp-nm">  
+        <span id="lb">GIV<span id="lr">L<span id="lv">AIT</span></span></span>
+      </span>
+    </div>
+    <div id="ctn-ft">  
+        <div id="liens-ft" class="item-ft"> 
+          <a href="prgiv.html" id="li-gv" class="lien-gr lien">GIVLAIT</a>
+          <a href="prgiv.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="prgiv.html#tt-org" id="li-og" class="slien lien">Organigramme</a>
+          <a href="programmes.html" id="li-pg" class="lien-gr lien">Programmes</a>
+          <a href="programmes.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="#" id="li-rg" class="slien lien">Réglementations</a>
+          <a href="missions.html" id="li-ms" class="lien-gr lien">Missions</a>
+          <a href="#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="elevage.html" id="li-el" class="lien-gr lien">Élevage</a>
+          <a href="elevage.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="elevage.html#para-int" id="li-sy" class="slien lien">Systèmes d'élevage<br>et types d'exploitation</a> 
+          <a href="#"class="slien li-st lien">Statistiques</a> 
+          <a href="viandes.html" id="li-vd" class="lien-gr lien">Viandes Rouges</a>
+          <a href="viandes.html#br-nav" class="slien li-pr lien">Présentation</a>
+          <a href="viandes.html#tt-ml" class="slien liml lien">Maillons</a> 
+          <a href="viandes.html#tt-asp" id="li-asp" class="slien lien">Aspects Réglementaires<br>et Instituionnels</a>
+          <a href="#"class="slien li-dc lien">Documents</a>
+          <a href="#"class="slien li-st lien">Statistiques</a>
+          <a href="#" id="li-lt" class="lien-gr lien">Lait</a>
+          <a href="#" class="slien li-pr lien">Présentation</a>
+          <a href="#" class="slien liml lien">Maillons</a>
+          <a href="#"class="slien li-dc lien">Documents</a>  
+        </div> 
+        <div class="item-ft item-rs"> 
+          <div id="ct" class="titre-pt">CONTACT</div> 
+          <a href="#" id="lien-cot">Contactez-nous</a> 
+          <div class="cdn-gr"><img src="images/tel.png" class="img-cot"><span>+216 71 28 25 11<br>+216 71 28 62 48</span></div>
+          <div class="cdn-gr"><img src="images/fax.png" class="img-cot">+216 71 28 98 57</div>
+          <div class="cdn-gr"><img src="images/email.png" class="img-cot">givlait@planet.tn</div>
+        </div> 
+        <div class="item-ft item-rs"> 
+          <div id="loc" class="titre-pt">LOCALISATION</div>
+          <iframe id="ct-loca" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.8390413684915!2d10.180626775064088!3d36.822376766450375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd348f34c7acaf%3A0xcf1be98880f2a294!2sGIVLAIT!5e0!3m2!1sfr!2stn!4v1690826095925!5m2!1sfr!2stn" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div id="adresse">8, rue Claude Bernard, cité jardins <br>1002-Tunis Belvédère-Tunisie</div>
+        </div> 
+    </div>
+  </footer>
+</body>
+<script>
+  function arabe() 
+  { 
+    const ht = document.getElementsByTagName("html");
+    ht.dir = "rtl"; 
+    ht.lang = "ar";  
+    const ttpg = document.getElementById("tt-pg");   
+    ttpg.innerHTML = "GIVLAIT |  تربية المواشي";       
+    const txlg = document.getElementsByClassName("logo-text");   
+    txlg[0].innerHTML = "المجمع المهني المشترك<br> للحوم الحمراء و الألبان";
+    txlg[0].style.fontSize = "15px"; 
+    txlg[0].style.right = "105px"; 
+    const txdp = document.getElementsByClassName("text-flag");    
+    txdp[0].innerHTML = "الجمهورية التونسية<br> وزارة الــفــلاحــة والموارد المائية<br> والصيد البحري"; 
+    txdp[0].style.fontSize = "14px";  
+    const cntdp = document.getElementsByClassName("flag-wrapper"); 
+    cntdp[0].style.width = "18%"; 
+    const itgv = document.getElementById("item-giv"); 
+    itgv.innerHTML = "المجمع"; 
+    itgv.style.fontSize = "20px";  
+    const itpg = document.getElementById("item-pg"); 
+    itpg.innerHTML = "البرامج"; 
+    itpg.style.fontSize = "20px";
+    const itms = document.getElementById("item-ms");
+    itms.innerHTML = "المهام"; 
+    itms.style.fontSize = "20px";
+    const itel = document.getElementById("item-el"); 
+    itel.innerHTML = "تربية المواشي ";  
+    itel.style.fontSize = "20px";
+    const itvd = document.getElementById("item-vd");  
+    itvd.innerHTML = "اللحوم الحمراء";
+    itvd.style.fontSize = "20px"; 
+    const itlt = document.getElementById("item-lt"); 
+    itlt.innerHTML = "الألبان";
+    itlt.style.fontSize = "20px";    
+    const iclt = document.getElementById("ic-lt"); 
+    iclt.style.position = "absolute"; 
+    iclt.style.left = "302px"; 
+    iclt.style.top = "22px";       
+    const itmnv = document.getElementsByClassName("item-nav");    
+    for(let i = 0 ; i < itmnv.length ; i++) 
+    {
+      itmnv[i].style.marginLeft = "120px"; 
+      itmnv[i].style.fontWeight = "bold";   
+    }
+  }
+  function arabest()
+  {
+    const itog = document.getElementById("item-og");
+    itog.innerHTML = "الهيكل التنظيمي  <img class='icr-ar' src='images/right-arrow.png'>"; 
+    itog.style.marginLeft = "8px";     
+    const itdp = document.getElementsByClassName("item-dp"); 
+    for(let i = 0 ; i < itdp.length ; i++) 
+      itdp[i].style.fontSize = "17px";  
+    const dpgv = document.getElementById("dp-giv");
+    dpgv.style.left = "1202px"; 
+    dpgv.style.top = "38px";
+    dpgv.style.borderTopLeftRadius = "10px"; 
+    dpgv.style.borderTopRightRadius = "0";  
+    const icrdp = document.getElementsByClassName("icr-dp"); 
+    for(let i = 0 ; i < icrdp.length ; i++)  
+      icrdp[i].style.display = "none"; 
+    const lgs = document.getElementById("lgs"); 
+    lgs.style.marginLeft = "150px"; 
+    const itrg = document.getElementById("item-rg"); 
+    itrg.innerHTML = "القوانين  <img class='icr-ar' src='images/right-arrow.png'>";
+    itrg.style.marginLeft = "4px";
+    const dppg = document.getElementById("dp-pg");
+    dppg.style.left = "1066px"; 
+    dppg.style.top = "39px"; 
+    dppg.style.borderTopLeftRadius = "10px"; 
+    dppg.style.borderTopRightRadius = "0"; 
+    const itdc = document.getElementsByClassName("it-dc"); 
+    for(let i = 0 ; i < itdc.length ; i++) 
+      itdc[i].innerHTML = "الوثائق  <img class='icr-ar' src='images/right-arrow.png'>";       
+    const itst = document.getElementsByClassName("it-st"); 
+    for(let i = 0 ; i < itst.length ; i++) 
+      itst[i].innerHTML = "الإحصائيات  <img class='icr-ar' src='images/right-arrow.png'>";  
+    const dpvd = document.getElementById("dp-vd");
+    dpvd.style.top = "38px";
+    dpvd.style.left = "386px";
+    dpvd.style.borderTopLeftRadius = "10px"; 
+    dpvd.style.borderTopRightRadius = "0";     
+    const dplt = document.getElementById("dp-lt"); 
+    dplt.style.top = "38px"; 
+    dplt.style.left = "273px";
+    dplt.style.borderTopLeftRadius = "10px"; 
+    dplt.style.borderTopRightRadius = "0";  
+    const imar = document.getElementById("im-ar"); 
+    imar.innerHTML = "عربية";  
+    imar.style.fontWeight = "bold";
+    imar.style.fontSize = "15px";  
+    const imfr = document.getElementById("im-fr");
+    imfr.innerHTML = "فرنسية"; 
+    imfr.style.fontWeight = "bold"; 
+    imfr.style.fontSize = "15px"; 
+    const itct = document.getElementById("item-ct"); 
+    itct.innerHTML = "تواصل"; 
+    const btct = document.getElementById("contact"); 
+    btct.style.marginLeft = "50px"; 
+    btct.style.fontWeight = "bold"; 
+    itmct = document.getElementById("item-ct"); 
+    itmct.style.fontSize = "18px";     
+    const ls = document.getElementById("lgs"); 
+    ls.style.marginLeft ="10px";
+    ls.style.marginRight = "0"; 
+    const icdpel = document.getElementById("icdp-el"); 
+    icdpel.style.position = "absolute"; 
+    icdpel.style.top = "24px"; 
+    icdpel.style.left = "696px";  
+    const itmml = document.getElementsByClassName("itm-ml"); 
+    for(let i = 0 ; i < itmml.length ; i++)
+      itmml[i].innerHTML = "الحلقات  <img class='icr-ar' src='images/right-arrow.png'>";  
+    const itmasp = document.getElementById("itm-asp"); 
+    itmasp.innerHTML = "الجوانب التنظيمية والمؤسسية <img class='icr-ar' src='images/right-arrow.png'>"; 
+    itmasp.style.marginLeft = "4px";   
+    const stel = document.getElementById("st-el"); 
+    stel.innerHTML = "نظم تربية الماشية و أنواع المزارع  <img class='icr-ar' src='images/right-arrow.png'>"; 
+    const mlvd = document.getElementById("ml-vd"); 
+    mlvd.style.marginLeft = "125px";     
+    const dcvd = document.getElementById("dc-vd"); 
+    dcvd.style.marginLeft = "127px"; 
+    const stvd = document.getElementById("st-vd"); 
+    stvd.style.marginLeft = "102px"; 
+    const mllt = document.getElementById("ml-lt"); 
+    mllt.style.marginLeft = "7px";  
+    const dclt = document.getElementById("dc-lt"); 
+    dclt.style.marginLeft = "8px";
+   }
+   function arabestt() 
+   {
+    const stel = document.getElementById("stel"); 
+    stel.style.marginLeft = "126px";  
+    const stell = document.getElementById("st-el"); 
+    stell.style.marginLeft = "5px"; 
+    const dpel = document.getElementById("dp-el"); 
+    dpel.style.position = "absolute";  
+    dpel.style.left = "580px"; 
+    dpel.style.top = "38px"; 
+    dpel.style.borderTopLeftRadius = "10px"; 
+    dpel.style.borderTopRightRadius = "0";
+    const ttel = document.getElementById("tt-el"); 
+    ttel.innerHTML = "قطاع تربية المواشي"; 
+    ttel.dir = "rtl"; 
+    ttel.style.marginLeft = "1050px";
+    ttel.style.width = "224px"; 
+    ttel.style.fontSize = "35px";  
+    const ttet = document.getElementById("tt-et"); 
+    ttet.innerHTML = "نظم الثروة الحيوانية وأنواع الزراعة"; 
+    ttet.dir = "rtl"; 
+    ttet.style.marginRight = "90px";
+    ttet.style.fontSize = "30px";
+    const tise = document.getElementById("tit-se"); 
+    tise.innerHTML = "نظم الثروة الحيوانية"; 
+    tise.dir = "rtl"; 
+    tise.style.marginRight = "90px";
+    tise.style.fontSize = "27px";
+    const ttit = document.getElementById("tt-it"); 
+    ttit.innerHTML = "التربية المتكاملة والمنظمة المكثفة"; 
+    ttit.dir = "rtl"; 
+    ttit.style.marginLeft = "993px"; 
+    ttit.style.width = "267px"; 
+    ttit.style.fontSize = "25px";
+    const ttse = document.getElementById("tt-se"); 
+    ttse.innerHTML = "التربية الشبه المكثفة أو الغير المتكاملة"; 
+    ttse.dir = "rtl"; 
+    ttse.style.marginLeft = "950px"; 
+    ttse.style.width = "302px"; 
+    ttse.style.fontSize = "25px";
+    const tths = document.getElementById("tt-hs"); 
+    tths.innerHTML = "التربية 'خارج التربة'"; 
+    tths.dir = "rtl"; 
+    tths.style.marginLeft = "1080px"; 
+    tths.style.width = "165px"; 
+    tths.style.fontSize = "25px"; 
+    const tttr = document.getElementById("tt-tr"); 
+    tttr.innerHTML = "التربية التقليدية أو الواسعة النطاق"; 
+    tttr.dir = "rtl"; 
+    tttr.style.marginLeft = "980px"; 
+    tttr.style.width = "270px"; 
+    tttr.style.fontSize = "25px";
+    const tite = document.getElementById("tit-te"); 
+    tite.innerHTML = "أنواع المزارع"; 
+    tite.dir = "rtl"; 
+    tite.style.marginLeft = "980px"; 
+    tite.style.width = "270px"; 
+    tite.style.fontSize = "30px";
+    const print = document.getElementById("para-int"); 
+    print.innerHTML = "تلعب تربية الماشية في تونس دورًا مهمًا في الاقتصاد التونسي لأنها تساهم في:<ul class='ls'><li>٪35 - ٪40 للناتج المحلي الفلاحي.</li><li>٪5 - ٪4 للناتج المحلي الإجمالي.</li></ul>"; 
+    print.dir = "rtl"; 
+    print.style.fontWeight = "bold"; 
+    print.style.fontSize = "25px";
+    print.style.marginRight = "90px";
+    print.style.lineHeight = "35px";
+    const pre = document.getElementsByClassName("para-e"); 
+    for(let i = 0 ; i < pre.length ; i++)
+    {
+      pre[i].style.lineHeight = "35px";
+    } 
+    const prit = document.getElementById("para-it"); 
+    prit.innerHTML = "يتميز هذا النظام بما يلي:<ul class='ls'><li>علف يعتمد على العلف الأخضر والسيلاج.</li><li>ارتفاع معدل إدماج تربية الماشية في الفلاحة.</li></ul>و هو:<ul class='ls'><li>يتعلق الأمر بالتربية الخاصة بالألبان.</li><li>يعيد تجميع المزارع الكبيرة في الشمال.</li><li>تشمل 20٪ من مربي الأبقار.</li></ul>";
+    prit.dir = "rtl";   
+    prit.style.fontSize = "25px";
+    prit.style.fontWeight = "bold"; 
+    prit.style.paddingTop = "17px"; 
+    const prtr = document.getElementById("para-tr"); 
+    prtr.innerHTML = "في هذا النوع من التربية، التغذية على أساس المراعي، مع التكامل خلال الفترة الصعبة."; 
+    prtr.dir = "rtl";   
+    prtr.style.fontSize = "25px";
+    prtr.style.fontWeight = "bold"; 
+    prtr.style.paddingTop = "23px";
+    const prase = document.getElementById("para-se"); 
+    prase.innerHTML = "تتمثل خصوصية هذا النظام فيما يلي:<ul class='ls'><li>تمرن على تسمين عجول الثور.</li><li>تطورت في الشمال الغربي.</li></ul>"; 
+    prase.dir = "rtl";   
+    prase.style.fontSize = "25px";
+    prase.style.fontWeight = "bold"; 
+    prase.style.marginTop = "95px"; 
+    const parhs = document.getElementById("para-hs"); 
+    parhs.innerHTML = "يمارس هذا النظام خارج المناطق الفلاحية وهو:<ul class='ls'><li>تم تطويره في وسط البلاد.</li><li>يتعلق 50٪ من مزارع الألبان.</li><li>يمثل 22٪ من جميع تربية الماشية.</li></ul>";  
+    parhs.dir = "rtl";   
+    parhs.style.fontSize = "25px";
+    parhs.style.fontWeight = "bold"; 
+    parhs.style.marginTop = "85px";
+    const prte = document.getElementById("para-te"); 
+    prte.innerHTML = "تصنف مختلف أنواع الحيازة المصادفة في الفلاحة التونسية على النحو التالي:<ul class='ls'><li>٪85 من المزارعين يمتلكون أراضٍ > 20 هكتار.</li><li>٪46 من المزارعين لديهم مناطق > 5 هكتار.</li><li>تغطي الحيازات > 20 هكتار أقل من 40٪ من المناطق المزروعة في البلاد ولكنها توفر 60٪ من التربية لأنها تؤوي 2/3 من الماشية وأكثر من 50٪ من المجترات الصغيرة.</li></ul>";
+    prte.dir = "rtl"; 
+    prte.style.fontWeight = "bold"; 
+    prte.style.fontSize = "25px";
+    prte.style.marginTop = "12px"; 
+    const lsi = document.getElementsByClassName("ls"); 
+    for(let i = 0 ; i < lsi.length ; i++)
+    {
+      lsi[i].style.marginLeft = "0"; 
+      lsi[i].style.marginRight = "30px";
+    }
+    const ft = document.getElementsByTagName("footer"); 
+    ft[0].style.height = "775px";  
+    const ct = document.getElementById("ct"); 
+    ct.innerHTML ="التواصل"; 
+    ct.style.textAlign = "right";
+    ct.style.fontSize = "35px"; 
+    ct.style.fontWeight = "bold"; 
+    ct.style.position = "relative"; 
+    ct.style.left = "-45px";   
+    const lcot = document.getElementById("lien-cot"); 
+    lcot.innerHTML = "اتصل بنا";
+    lcot.style.textAlign = "right"; 
+    lcot.style.fontSize = "30px"; 
+    lcot.style.marginLeft = "166px"; 
+    const loc = document.getElementById("loc"); 
+    loc.innerHTML = "الموقع";
+    loc.style.fontWeight = "bold"; 
+    loc.style.textAlign = "right";
+    loc.style.fontSize = "30px"; 
+    loc.style.position = "relative"; 
+    loc.style.left = "-22px";  
+    const ad = document.getElementById("adresse"); 
+    ad.innerHTML = "8، شارع كلود برنارد، حي الحدائق، 1002-تونس البلفيدار-تونس"; 
+    ad.dir = "rtl";  
+    ad.style.textAlign = "right"; 
+    ad.style.fontWeight = "bold"; 
+    ad.style.fontSize = "20px";   
+    ad.style.width = "240px"; 
+    ad.style.marginLeft = "66px"; 
+    const ligv = document.getElementById("li-gv"); 
+    ligv.innerHTML = "المجمع";   
+    const ligr = document.getElementsByClassName("lien-gr"); 
+    for(let i = 0 ; i < ligr.length ; i++)
+    {
+      ligr[i].style.textAlign = "right"; 
+      ligr[i].style.fontSize = "20px"; 
+      ligr[i].style.fontWeight = "bold"
+      ligr[i].style.marginLeft = "30px"; 
+      ligr[i].style.width = "200px"; 
+    } 
+    const lipg = document.getElementById("li-pg"); 
+    lipg.innerHTML = "البرامج";
+    const lims = document.getElementById("li-ms"); 
+    lims.innerHTML = "المهام";  
+    const liel = document.getElementById("li-el"); 
+    liel.innerHTML = "تربية المواشي";
+    const livd = document.getElementById("li-vd"); 
+    livd.innerHTML = "اللحوم الحمراء"; 
+    const lilt = document.getElementById("li-lt"); 
+    lilt.innerHTML = "الألبان";  
+    const slien = document.getElementsByClassName("slien"); 
+    for(let i = 0 ; i < slien.length ; i++) 
+    { 
+      slien[i].style.width = "200px"; 
+      slien[i].style.marginLeft = "10px";  
+      slien[i].style.textAlign = "right"; 
+      slien[i].style.fontSize = "18px";  
+    }
+    const lipr = document.getElementsByClassName("li-pr"); 
+    for(let i = 0 ; i < lipr.length ; i++) 
+      lipr[i].innerHTML = "التقديم"; 
+    const liog = document.getElementById("li-og"); 
+    liog.innerHTML = "الهيكل التنظيمي"; 
+    const lirg = document.getElementById("li-rg"); 
+    lirg.innerHTML = "القوانين";
+    const lisy = document.getElementById("li-sy"); 
+    lisy.innerHTML = "نظم تربية الماشية و أنواع المزارع";  
+    const liml = document.getElementsByClassName("liml"); 
+    for(let i = 0 ; i < liml.length ; i++) 
+      liml[i].innerHTML = "الحلقات";
+    const lidc = document.getElementsByClassName("li-dc"); 
+    for(let i = 0 ; i < lidc.length ; i++) 
+      lidc[i].innerHTML = "الوثائق";  
+    const list = document.getElementsByClassName("li-st"); 
+    for(let i = 0 ; i < list.length ; i++) 
+      list[i].innerHTML = "الإحصائيات";
+    const liasp = document.getElementById("li-asp"); 
+    liasp.innerHTML = "الجوانب التنظيمية و المؤسسية";
+  }
+  if (sessionStorage.getItem("slp") !== null && sessionStorage.getItem("pagel") === 'oui') 
+      window.scrollTo(0, parseInt(sessionStorage.getItem("slp")));
+  else if (sessionStorage.getItem("slp") !== null) 
+      sessionStorage.setItem("slp", null);
+  sessionStorage.setItem("pagel", "oui"); 
+  window.addEventListener("scroll", function(){
+      const scrollPosition = window.scrollY || window.pageYOffset;  
+      sessionStorage.setItem('slp', scrollPosition.toString());
+    })
+  sessionStorage.setItem("pagea", "non"); 
+  sessionStorage.setItem("pgms", "non");
+  sessionStorage.setItem("pagvd", "non");
+  sessionStorage.setItem("paggv", "non");
+    document.getElementById('im-fr').addEventListener('click', function(){
+      if (sessionStorage.getItem('buttonClicked') === 'true') 
+      window.location.href = "elevage.html";
+      sessionStorage.setItem('buttonClicked', 'false'); 
+    });
+    document.getElementById('im-ar').addEventListener('click', function(){
+    sessionStorage.setItem('buttonClicked', 'true');
+    }); 
+    if (sessionStorage.getItem('buttonClicked') === 'true') 
+    {
+      arabe(); 
+      arabest(); 
+      arabestt(); 
+    }
+</script>
+</html>
