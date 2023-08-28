@@ -79,18 +79,18 @@
     <section>
       <h1 class="title maillons-title" >Les différents maillons de la filière</h1>
       <hr class="line">
-      <img class="maillons-image" src="images/lait_maillons.png" alt="">
+      <img class="maillons-image border" src="images/lait_maillons.png" alt="">
     </section>
     <div class="production" style="height: 800px;">
       <h1 class="title maillons-title">Production</h1>
       <p class="prod-text">En Tunisie l'élevage bovin représente une composante importante dans la production agricole et dans l'économie nationale. Il a été classé parmi les secteurs prioritaires du fait qu'il génère deux produits stratégiques (lait et viande).
       </p>
-      <img id="prod-pic" src="images/cow.jpg" alt="">
+      <img class="border" id="prod-pic" src="images/cow.jpg" alt="">
     </div>
     <div class="collecte">
       <h1 class="title maillons-title">Collecte</h1>
       <div class="coll-wrapper">
-        <img  src="images/collecte_img.jpg" alt="">
+        <img class="border" src="images/collecte_img.jpg" >
       <p class="coll-text">
         L'activité de la collecte du lait constitue le deuxième maillon de la filière laitière. Il permet la valorisation de la production laitière en plus de son effet d'entraînement sur le développement du secteur.
         En 2022, près de 234 centres de collecte sont en activité (234 centres de collecte ont obtenu l'agriment sanitaire vétérinaire) avec une capacité globale de collecte dépassant les 2,9 millions de litres de lait par jour. Le lait collecté représente plus de 60.9 % du lait produit et les centrales laitières s'approvisionnent à hauteur de 84.5% du lait frais au près des centres de collecte.
@@ -103,7 +103,7 @@
         Ce maillon comporte plus de 45 unités industrielles d'une capacité de transformation de 5,6 millions de litres par jours ainsi que d'un réseau de transformateurs artisanaux repartis sur toute la République.
       </p>
       <div class="img-wrapper">
-        <img src="images/tranformation-pic.jpg" alt="">
+        <img class="border" src="images/tranformation-pic.jpg" >
 
       </div>
     </div>
@@ -266,23 +266,25 @@
     ls.style.marginRight = "0"; 
     const title = document.getElementsByClassName("title");
     title[0].innerHTML = "تقديم";
-    title[0].style.marginLeft = "1300px";
+    title[0].dir = "rtl";
+    title[0].style.width = "125px";
+    title[0].style.marginLeft = "1185px";
     const line = document.getElementsByClassName("line");
-    line[0].style.marginLeft = "1343px";
+    line[0].style.marginLeft = "1243px";
     line[0].style.width = "67px";
     const headerText = document.getElementsByClassName("header-text");
     headerText[0].innerHTML = "يلعب قطاع الألبان في تونس دور حاسم في الاقتصاد الوطني وفي الأمن الغذائي للبلد. وهو يمثل أحد أهم القطاعات الصناعية الزراعية <br><br>يتكون القطاع من مجموعة من الروابط من الإنتاج إلى التوزيع والاستهلاك";
     headerText[0].style.fontSize = "30px";
     headerText[0].style.textAlign = "right";
-    headerText[0].style.marginLeft = "900px";
+    headerText[0].style.marginLeft = "800px";
     headerText[0].style.fontWeight = "bold";
     title[1].innerHTML = "الروابط المختلفة في القطاع";
-    title[1].style.marginLeft = "1010px";
-    line[1].style.marginLeft = "1190px";
+    title[1].style.marginLeft = "910px";
+    line[1].style.marginLeft = "1090px";
     const img = document.getElementsByClassName("maillons-image");
     img[0].src = "images/maillonLait_AR.png";
     title[2].innerHTML = "الإنتاج";
-    title[2].style.marginLeft = "1300px";
+    title[2].style.marginLeft = "1190px";
     title[2].style.marginBottom = "100px";
     const prodText = document.getElementsByClassName("prod-text");
     prodText[0].innerHTML = "تمثل تربية الماشية عنصرا هاما في الإنتاج الزراعي وفي الاقتصاد الوطني. وقد تم تصنيفها ضمن القطاعات ذات الأولوية لأنها تنتج منتجين استراتيجيين (الحليب واللحوم).";
@@ -290,27 +292,28 @@
     prodText[0].style.fontSize = "34px";
     prodText[0].style.fontWeight = "bold";
     title[3].innerHTML = "الجمع";
-    title[3].style.marginLeft = "1300px";
+    title[3].style.marginLeft = "1200px";
     const collText = document.getElementsByClassName("coll-text");
     collText[0].innerHTML = "نشاط جمع الحليب هو الحلقة الثانية في سلسلة منتجات الألبان. وهو يسمح بتثمين إنتاج الحليب بالإضافة إلى تأثيره المتتالي على تنمية القطاع. في عام 2022، يعمل ما يقرب من 234 مركزًا للتجميع (حصل 234 مركزًا على زراعة بيطرية صحية) بسعة تجميع إجمالية تتجاوز 2.9 مليون لتر من الحليب يوميًا. يمثل الحليب الذي تم جمعه أكثر من 60.9٪ من الحليب المنتج ومصدر نباتات الألبان 84.5٪ من الحليب الطازج بالقرب من مراكز التجميع.";
     collText[0].style.fontSize = "28px";
     collText[0].style.fontWeight = "bold";
     collText[0].style.textAlign = "right";
     title[4].innerHTML = "التحويل";
-    title[4].style.marginLeft = "1270px";
+    title[4].style.marginLeft = "1170px";
     const trans = document.getElementsByClassName("tran-text");
     trans[0].innerHTML = "تشمل هذه الوصلة أكثر من 45 وحدة صناعية تبلغ طاقتها التجهيزية 5.6 ملايين لتر يوميا، فضلا عن شبكة من المحولات الحرفية الموزعة في جميع أنحاء الجمهورية";
-    trans[0].style.marginRight = "100px";
+    trans[0].style.marginLeft = "24px";
     trans[0].style.textAlign = "right";
     trans[0].style.fontWeight = "bold";
     trans[0].style.fontSize = "30px";
     title[5].innerHTML = "التوزيع والاستهلاك";
-    title[5].style.marginLeft = "1116px";
+    title[5].style.marginLeft = "1016px";
     const dist = document.getElementsByClassName("dsit-text");
     dist[0].innerHTML = "قنوات توزيع وتسويق الحليب للمنتجات الحرفية غير معروفة وغير محددة. تطور استهلاك الحليب ومنتجات الألبان بسبب التغيرات في عادات الأكل، وتحسين القوة الشرائية وتطوير الإنتاج، وهو في حدود 109.9 لتر/ نسمة المصدر ";
     dist[0].style.fontSize = "25px";
     dist[0].style.fontWeight = "bold";
     dist[0].style.textAlign = "right";
+    dist[0].style.marginLeft = "36px";
     const ft = document.getElementsByTagName("footer"); 
     ft[0].style.height = "775px";  
     const ct = document.getElementById("ct"); 
