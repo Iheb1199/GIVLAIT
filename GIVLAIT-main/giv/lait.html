@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicone.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lait.css">
+  <title id="tt-pg">GIVLAIT | Lait</title>
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <div class="logo-wrapper">
+        <a href="#"><img src="images/Rectangle 89.png" class="logo"></a>
+        <a href="#" class="logo-text fix">Groupement Interprofessionnel des Viandes Rouges et du Lait</a>
+      </div>
+      <div class="flag-wrapper">
+        <img class="flag" src="images/Tunisia flag.png">
+        <div class="text-flag">République Tunisienne 
+                            Ministère de l’Agricultutre 
+                            des Ressources Hydrauliques, et de la Pêche</div>
+      </div>
+    </div>
+    <nav>
+      <ul id="br-nav">
+        <li class="item-nav parent"><span class="it-hv"><a href="#" id="item-giv">GIVLAIT</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-giv">
+              <a href="#" class="item-dp" id="item-og" style="color: black; font-size: 15px; font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Organigramme</a>
+          </div> 
+        </li>
+        <li class="item-nav parent"><span class="it-hv"><a href="#" id="item-pg">Programmes</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-pg">
+            <a href="#" id="item-rg" class="item-dp" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Réglementations</a>
+          </div>
+        </li>
+        <li id="anm-sl" class="item-nav"><a href="#" id="item-ms">Missions</a></li> 
+        <li class="item-nav parent"><span class="it-hv"><a href="#" id="item-el">Élevage</a><img id="icdp-el" class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-el">
+            <ul> 
+              <li style="display: block; margin-bottom: 10px;"><a href="#" id="st-el" class="item-dp" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Systèmes d'Élevage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Types d'Exploitation</a></li>
+              <li style="display: block; margin-bottom: 10px;"><a href="#" class="item-dp it-st" id="stel" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
+            </ul>
+          </div>
+        </li> 
+        <li class="item-nav parent"><span class="it-hv"><a href="#" id="item-vd">Viandes Rouges</a><img class="ic-dp" src="images/dropdown.png"></span>
+          <div class="fils" id="dp-vd">
+            <ul>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" class="item-dp itm-ml" id="ml-vd" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons</a></li> 
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="itm-asp" class="item-dp" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Aspects Réglementaires<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et Institutionnels</a></li>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="dc-vd" class="item-dp it-dc" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Documentations</a></li>
+              <li style="display: block;"><a href="#" id="st-vd" class="item-dp it-st" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
+            </ul>
+          </div>
+        </li> 
+        <li id="it-lat" class="item-nav parent"><span class="it-hv"><a href="#" id="item-lt">Lait</a><img id="ic-lt" class="ic-dp" src="images/dropdown.png"></span>
+          <div id="dp-lt" class="fils">
+            <ul>
+               <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="ml-lt" class="item-dp itm-ml" style="color: black; font-size:15px;"><img class="icr-dp" src="images/right-arrow.png">Maillons</a></li>
+              <li style="display: block; margin-bottom: 10px;font-weight:bold;"><a href="#" id="dc-lt" class="item-dp it-dc"style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Documentations</a></li>
+              <li style="display: block;"><a href="#" id="st-lt" class="item-dp it-st" style="color: black; font-size:15px;font-weight:bold;"><img class="icr-dp" src="images/right-arrow.png">Statistiques</a></li>
+            </ul>
+          </div>
+        </li>
+        <li id="lgs"><button id="im-ar" onclick="Larabe();">AR</button> | <a id="im-fr" style="cursor: pointer;">FR</a></li> 
+        <li id="contact"><a href="#" id="item-ct">Contact</a></li>
+      </ul>  
+    </nav>
+    <div class="lait-header">
+      <h1 class="title pres">Présentation</h1>
+      <hr class="line pres">
+      <p class="header-text">       
+        La filière laitière en Tunisie joue un rôle crucial dans l'économie nationale et dans la sécurité   alimentaire du pays. Elle représente l'un des secteurs agro-industriels les plus importants.
+        <br>
+        <br>
+        Elle couvre un ensemble de maillons allant de la production à la Distribution et consommation
+      </p>
+    </div>
+    <section>
+      <h1 class="title maillons-title" >Les différents maillons de la filière</h1>
+      <hr class="line">
+      <img class="maillons-image" src="images/lait_maillons.png" alt="">
+    </section>
+    <div class="production" style="height: 800px;">
+      <h1 class="title maillons-title">Production</h1>
+      <p class="prod-text">En Tunisie l'élevage bovin représente une composante importante dans la production agricole et dans l'économie nationale. Il a été classé parmi les secteurs prioritaires du fait qu'il génère deux produits stratégiques (lait et viande).
+      </p>
+      <img id="prod-pic" src="images/cow.jpg" alt="">
+    </div>
+    <div class="collecte">
+      <h1 class="title maillons-title">Collecte</h1>
+      <div class="coll-wrapper">
+        <img  src="images/collecte_img.jpg" alt="">
+      <p class="coll-text">
+        L'activité de la collecte du lait constitue le deuxième maillon de la filière laitière. Il permet la valorisation de la production laitière en plus de son effet d'entraînement sur le développement du secteur.
+        En 2022, près de 234 centres de collecte sont en activité (234 centres de collecte ont obtenu l'agriment sanitaire vétérinaire) avec une capacité globale de collecte dépassant les 2,9 millions de litres de lait par jour. Le lait collecté représente plus de 60.9 % du lait produit et les centrales laitières s'approvisionnent à hauteur de 84.5% du lait frais au près des centres de collecte.
+      </p>
+      </div>
+    </div>
+    <div class="transformation">
+      <h1 class="title maillons-title">Transformation</h1>
+      <p class="tran-text">
+        Ce maillon comporte plus de 45 unités industrielles d'une capacité de transformation de 5,6 millions de litres par jours ainsi que d'un réseau de transformateurs artisanaux repartis sur toute la République.
+      </p>
+      <div class="img-wrapper">
+        <img src="images/tranformation-pic.jpg" alt="">
+
+      </div>
+    </div>
+    <div class="dist-cons">
+      <h1 class="title maillons-title">Distribution et consommation</h1>
+      <p class="dsit-text">
+        Les circuits de distribution et de commercialisation du lait qui concerne les produits artisanaux sont mal connus et non identifiés.
+        La consommation du lait et des produits laitiers a évolué suite aux changements des habitudes alimentaires, à l'amélioration du pouvoir d'achat et au développement de la production, elle est de l'ordre de 109,9 l/habitant Source INS 2017.
+      </p>
+    </div>
+    <footer> 
+      <div id="ct-logo">   
+        <img src="images/logo.png">
+        <span id="grp-nm">  
+          <span id="lb">GIV<span id="lr">L<span id="lv">AIT</span></span></span>
+        </span>
+      </div>
+      <div id="ctn-ft">  
+          <div id="liens-ft" class="item-ft"> 
+            <a href="#" id="li-gv" class="lien-gr lien">GIVLAIT</a>
+            <a href="#" class="slien li-pr lien">Présentation</a>
+            <a href="#" id="li-og" class="slien lien">Organigramme</a>
+            <a href="#" id="li-pg" class="lien-gr lien">Programmes</a>
+            <a href="#" class="slien li-pr lien">Présentation</a>
+            <a href="#" id="li-rg" class="slien lien">Réglementations</a>
+            <a href="#" id="li-ms" class="lien-gr lien">Missions</a>
+            <a href="#" class="slien li-pr lien">Présentation</a>
+            <a href="#" id="li-el" class="lien-gr lien">Élevage</a>
+            <a href="#" id="li-sy" class="slien lien">Systèmes d'élevage<br>et types d'exploitation</a> 
+            <a href="#"class="slien li-st lien">Statistiques</a> 
+            <a href="#" id="li-vd" class="lien-gr lien">Viandes Rouges</a>
+            <a href="#" class="slien li-pr lien">Présentation</a>
+            <a href="#" class="slien liml lien">Maillons</a> 
+            <a href="#" id="li-asp" class="slien lien">Aspects Réglementaires<br>et Instituionnels</a>
+            <a href="#"class="slien li-dc lien">Documentations</a>
+            <a href="#"class="slien li-st lien">Statistiques</a>
+            <a href="#" id="li-lt" class="lien-gr lien">Lait</a>
+            <a href="#" class="slien li-pr lien">Présentation</a>
+            <a href="#" class="slien liml lien">Maillons</a>
+            <a href="#"class="slien li-dc lien">Documentations</a> 
+            <a href="#"class="slien li-st lien">Statistiques</a> 
+          </div> 
+          <div class="item-ft item-rs"> 
+            <div id="ct" class="titre-pt">CONTACT</div> 
+            <a href="#" id="lien-cot">Contactez-nous</a> 
+            <div class="cdn-gr"><img src="images/tel.png" class="img-cot"><span>+216 71 28 25 11<br>+216 71 28 62 48</span></div>
+            <div class="cdn-gr"><img src="images/fax.png" class="img-cot">+216 71 28 98 57</div>
+            <div class="cdn-gr"><img src="images/email.png" class="img-cot">givlait@planet.tn</div>
+          </div> 
+          <div class="item-ft item-rs"> 
+            <div id="loc" class="titre-pt">LOCALISATION</div>
+            <iframe id="ct-loca" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.8390413684915!2d10.180626775064088!3d36.822376766450375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd348f34c7acaf%3A0xcf1be98880f2a294!2sGIVLAIT!5e0!3m2!1sfr!2stn!4v1690826095925!5m2!1sfr!2stn" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="adresse">8, rue Claude Bernard, cité jardins <br>1002-Tunis Belvédère-Tunisie</div>
+          </div> 
+      </div>
+    </footer>
+  
+</body>
+<script type="text/javascript">
+  function Larabe() {
+    const ht = document.getElementsByTagName("html");
+    ht.dir = "rtl"; 
+    ht.lang = "ar";  
+    const ttpg = document.getElementById("tt-pg");   
+    ttpg.innerHTML = "GIVLAIT |  قطاع الحليب";
+    const txlg = document.getElementsByClassName("logo-text");   
+    txlg[0].innerHTML = "المجمع المهني المشترك<br> للحوم الحمراء و الألبان";
+    txlg[0].style.fontSize = "15px"; 
+    txlg[0].style.right = "13px"; 
+    const txdp = document.getElementsByClassName("text-flag");    
+    txdp[0].innerHTML = "الجمهورية التونسية<br> وزارة الــفــلاحــة والموارد المائية<br> والصيد البحري"; 
+    txdp[0].style.fontSize = "14px";
+    const cntdp = document.getElementsByClassName("flag-wrapper"); 
+    cntdp[0].style.width = "18%"; 
+    const itgv = document.getElementById("item-giv"); 
+    itgv.innerHTML = "المجمع"; 
+    itgv.style.fontSize = "20px"; 
+    const itpg = document.getElementById("item-pg"); 
+    itpg.innerHTML = "البرامج"; 
+    itpg.style.fontSize = "20px";
+    const itms = document.getElementById("item-ms");
+    itms.innerHTML = "المهام"; 
+    itms.style.fontSize = "20px";
+    const itel = document.getElementById("item-el"); 
+    itel.innerHTML = "تربية المواشي ";  
+    itel.style.fontSize = "20px";
+    const itvd = document.getElementById("item-vd");  
+    itvd.innerHTML = "اللحوم الحمراء";
+    itvd.style.fontSize = "20px"; 
+    const itlt = document.getElementById("item-lt"); 
+    itlt.innerHTML = "الألبان";
+    itlt.style.fontSize = "20px";    
+    const iclt = document.getElementById("ic-lt"); 
+    iclt.style.position = "absolute"; 
+    iclt.style.left = "302px"; 
+    iclt.style.top = "22px";       
+    const itmnv = document.getElementsByClassName("item-nav");    
+    for(let i = 0 ; i < itmnv.length ; i++) 
+    {
+      itmnv[i].style.marginLeft = "120px"; 
+      itmnv[i].style.fontWeight = "bold";   
+    }
+    const itog = document.getElementById("item-og");
+    itog.innerHTML = "الهيكل التنظيمي  <img class='icr-ar' src='images/right-arrow.png'>"; 
+    itog.style.marginLeft = "8px";     
+    const itdp = document.getElementsByClassName("item-dp"); 
+    for(let i = 0 ; i < itdp.length ; i++) 
+      itdp[i].style.fontSize = "17px";  
+    const dpgv = document.getElementById("dp-giv");
+    dpgv.style.left = "1202px"; 
+    dpgv.style.top = "38px";
+    dpgv.style.borderTopLeftRadius = "10px"; 
+    dpgv.style.borderTopRightRadius = "0";  
+    const icrdp = document.getElementsByClassName("icr-dp"); 
+    for(let i = 0 ; i < icrdp.length ; i++)  
+      icrdp[i].style.display = "none"; 
+    const lgs = document.getElementById("lgs"); 
+    lgs.style.marginLeft = "150px"; 
+    const itrg = document.getElementById("item-rg"); 
+    itrg.innerHTML = "القوانين  <img class='icr-ar' src='images/right-arrow.png'>";
+    itrg.style.marginLeft = "4px";
+    const dppg = document.getElementById("dp-pg");
+    dppg.style.left = "1066px"; 
+    dppg.style.top = "39px"; 
+    dppg.style.borderTopLeftRadius = "10px"; 
+    dppg.style.borderTopRightRadius = "0"; 
+    const itdc = document.getElementsByClassName("it-dc"); 
+    for(let i = 0 ; i < itdc.length ; i++) 
+      itdc[i].innerHTML = "الوثائق  <img class='icr-ar' src='images/right-arrow.png'>";       
+    const itst = document.getElementsByClassName("it-st"); 
+    for(let i = 0 ; i < itst.length ; i++) 
+      itst[i].innerHTML = "الإحصائيات  <img class='icr-ar' src='images/right-arrow.png'>";  
+    const dpvd = document.getElementById("dp-vd");
+    dpvd.style.top = "38px";
+    dpvd.style.left = "386px";
+    dpvd.style.borderTopLeftRadius = "10px"; 
+    dpvd.style.borderTopRightRadius = "0";     
+    const dplt = document.getElementById("dp-lt"); 
+    dplt.style.top = "38px"; 
+    dplt.style.left = "249px";
+    dplt.style.borderTopLeftRadius = "10px"; 
+    dplt.style.borderTopRightRadius = "0";  
+    const imar = document.getElementById("im-ar"); 
+    imar.innerHTML = "عربية";  
+    imar.style.fontWeight = "bold";
+    imar.style.fontSize = "15px";  
+    const imfr = document.getElementById("im-fr");
+    imfr.innerHTML = "فرنسية"; 
+    imfr.style.fontWeight = "bold"; 
+    imfr.style.fontSize = "15px"; 
+    const itct = document.getElementById("item-ct"); 
+    itct.innerHTML = "تواصل"; 
+    const btct = document.getElementById("contact"); 
+    btct.style.marginLeft = "50px"; 
+    btct.style.fontWeight = "bold"; 
+    itmct = document.getElementById("item-ct"); 
+    itmct.style.fontSize = "18px";     
+    const ls = document.getElementById("lgs"); 
+    ls.style.marginLeft ="10px";
+    ls.style.marginRight = "0"; 
+    const title = document.getElementsByClassName("title");
+    title[0].innerHTML = "تقديم";
+    title[0].style.marginLeft = "1300px";
+    const line = document.getElementsByClassName("line");
+    line[0].style.marginLeft = "1343px";
+    line[0].style.width = "67px";
+    const headerText = document.getElementsByClassName("header-text");
+    headerText[0].innerHTML = "يلعب قطاع الألبان في تونس دور حاسم في الاقتصاد الوطني وفي الأمن الغذائي للبلد. وهو يمثل أحد أهم القطاعات الصناعية الزراعية <br><br>يتكون القطاع من مجموعة من الروابط من الإنتاج إلى التوزيع والاستهلاك";
+    headerText[0].style.fontSize = "30px";
+    headerText[0].style.textAlign = "right";
+    headerText[0].style.marginLeft = "900px";
+    headerText[0].style.fontWeight = "bold";
+    title[1].innerHTML = "الروابط المختلفة في القطاع";
+    title[1].style.marginLeft = "1010px";
+    line[1].style.marginLeft = "1190px";
+    const img = document.getElementsByClassName("maillons-image");
+    img[0].src = "images/maillonLait_AR.png";
+    title[2].innerHTML = "الإنتاج";
+    title[2].style.marginLeft = "1300px";
+    title[2].style.marginBottom = "100px";
+    const prodText = document.getElementsByClassName("prod-text");
+    prodText[0].innerHTML = "تمثل تربية الماشية عنصرا هاما في الإنتاج الزراعي وفي الاقتصاد الوطني. وقد تم تصنيفها ضمن القطاعات ذات الأولوية لأنها تنتج منتجين استراتيجيين (الحليب واللحوم).";
+    prodText[0].style.textAlign = "right";
+    prodText[0].style.fontSize = "34px";
+    prodText[0].style.fontWeight = "bold";
+    title[3].innerHTML = "الجمع";
+    title[3].style.marginLeft = "1300px";
+    const collText = document.getElementsByClassName("coll-text");
+    collText[0].innerHTML = "نشاط جمع الحليب هو الحلقة الثانية في سلسلة منتجات الألبان. وهو يسمح بتثمين إنتاج الحليب بالإضافة إلى تأثيره المتتالي على تنمية القطاع. في عام 2022، يعمل ما يقرب من 234 مركزًا للتجميع (حصل 234 مركزًا على زراعة بيطرية صحية) بسعة تجميع إجمالية تتجاوز 2.9 مليون لتر من الحليب يوميًا. يمثل الحليب الذي تم جمعه أكثر من 60.9٪ من الحليب المنتج ومصدر نباتات الألبان 84.5٪ من الحليب الطازج بالقرب من مراكز التجميع.";
+    collText[0].style.fontSize = "28px";
+    collText[0].style.fontWeight = "bold";
+    collText[0].style.textAlign = "right";
+    title[4].innerHTML = "التحويل";
+    title[4].style.marginLeft = "1270px";
+    const trans = document.getElementsByClassName("tran-text");
+    trans[0].innerHTML = "تشمل هذه الوصلة أكثر من 45 وحدة صناعية تبلغ طاقتها التجهيزية 5.6 ملايين لتر يوميا، فضلا عن شبكة من المحولات الحرفية الموزعة في جميع أنحاء الجمهورية";
+    trans[0].style.marginRight = "100px";
+    trans[0].style.textAlign = "right";
+    trans[0].style.fontWeight = "bold";
+    trans[0].style.fontSize = "30px";
+    title[5].innerHTML = "التوزيع والاستهلاك";
+    title[5].style.marginLeft = "1116px";
+    const dist = document.getElementsByClassName("dsit-text");
+    dist[0].innerHTML = "قنوات توزيع وتسويق الحليب للمنتجات الحرفية غير معروفة وغير محددة. تطور استهلاك الحليب ومنتجات الألبان بسبب التغيرات في عادات الأكل، وتحسين القوة الشرائية وتطوير الإنتاج، وهو في حدود 109.9 لتر/ نسمة المصدر ";
+    dist[0].style.fontSize = "25px";
+    dist[0].style.fontWeight = "bold";
+    dist[0].style.textAlign = "right";
+    const ft = document.getElementsByTagName("footer"); 
+    ft[0].style.height = "775px";  
+    const ct = document.getElementById("ct"); 
+    ct.innerHTML ="التواصل"; 
+    ct.style.textAlign = "right";
+    ct.style.fontSize = "35px"; 
+    ct.style.fontWeight = "bold"; 
+    ct.style.position = "relative"; 
+    ct.style.left = "-45px";   
+    const lcot = document.getElementById("lien-cot"); 
+    lcot.innerHTML = "اتصل بنا";
+    lcot.style.textAlign = "right"; 
+    lcot.style.fontSize = "30px"; 
+    lcot.style.marginLeft = "166px"; 
+    const loc = document.getElementById("loc"); 
+    loc.innerHTML = "الموقع";
+    loc.style.fontWeight = "bold"; 
+    loc.style.textAlign = "right";
+    loc.style.fontSize = "30px"; 
+    loc.style.position = "relative"; 
+    loc.style.left = "-22px";  
+    const ad = document.getElementById("adresse"); 
+    ad.innerHTML = "8، شارع كلود برنارد، حي الحدائق، 1002-تونس البلفيدار-تونس"; 
+    ad.dir = "rtl"; 
+    ad.style.textAlign = "right"; 
+    ad.style.fontWeight = "bold"; 
+    ad.style.fontSize = "20px";   
+    ad.style.width = "240px"; 
+    ad.style.marginLeft = "66px"; 
+    const ligv = document.getElementById("li-gv"); 
+    ligv.innerHTML = "المجمع";   
+    const ligr = document.getElementsByClassName("lien-gr"); 
+    for(let i = 0 ; i < ligr.length ; i++)
+    {
+      ligr[i].style.textAlign = "right"; 
+      ligr[i].style.fontSize = "20px"; 
+      ligr[i].style.fontWeight = "bold"
+      ligr[i].style.marginLeft = "30px"; 
+      ligr[i].style.width = "200px"; 
+    } 
+    const lipg = document.getElementById("li-pg"); 
+    lipg.innerHTML = "البرامج";
+    const lims = document.getElementById("li-ms"); 
+    lims.innerHTML = "المهام";  
+    const liel = document.getElementById("li-el"); 
+    liel.innerHTML = "تربية المواشي";
+    const livd = document.getElementById("li-vd"); 
+    livd.innerHTML = "اللحوم الحمراء"; 
+    const lilt = document.getElementById("li-lt"); 
+    lilt.innerHTML = "الألبان";  
+    const slien = document.getElementsByClassName("slien"); 
+    for(let i = 0 ; i < slien.length ; i++) 
+    { 
+      slien[i].style.width = "200px"; 
+      slien[i].style.marginLeft = "10px";  
+      slien[i].style.textAlign = "right"; 
+      slien[i].style.fontSize = "18px";  
+    }
+    const lipr = document.getElementsByClassName("li-pr"); 
+    for(let i = 0 ; i < lipr.length ; i++) 
+      lipr[i].innerHTML = "التقديم"; 
+    const liog = document.getElementById("li-og"); 
+    liog.innerHTML = "الهيكل التنظيمي"; 
+    const lirg = document.getElementById("li-rg"); 
+    lirg.innerHTML = "القوانين";
+    const lisy = document.getElementById("li-sy"); 
+    lisy.innerHTML = "نظم تربية الماشية و أنواع المزارع";  
+    const liml = document.getElementsByClassName("liml"); 
+    for(let i = 0 ; i < liml.length ; i++) 
+      liml[i].innerHTML = "الحلقات";
+    const lidc = document.getElementsByClassName("li-dc"); 
+    for(let i = 0 ; i < lidc.length ; i++) 
+      lidc[i].innerHTML = "الوثائق";  
+    const list = document.getElementsByClassName("li-st"); 
+    for(let i = 0 ; i < list.length ; i++) 
+      list[i].innerHTML = "الإحصائيات";
+    const liasp = document.getElementById("li-asp"); 
+    liasp.innerHTML = "الجوانب التنظيمية و المؤسسية";
+  }
+  if (sessionStorage.getItem("scrlpos") !== null && sessionStorage.getItem("pagla") === 'oui') 
+  {
+      window.scrollTo(0, parseInt(sessionStorage.getItem("scrlpos"))); 
+  }
+  else if (sessionStorage.getItem("scrlpos") !== null) 
+    sessionStorage.setItem("scrlpos", null); 
+  sessionStorage.setItem("pagla", "oui"); 
+  window.addEventListener("scroll", function(){
+    const scrollPosition = window.scrollY || window.pageYOffset;  
+    sessionStorage.setItem('scrlpos', scrollPosition.toString());
+  });
+  sessionStorage.setItem("pgms", "non");
+  sessionStorage.setItem("pagpg", "non");
+  sessionStorage.setItem("pagea", "non");
+  sessionStorage.setItem("paggv", "non");
+  document.getElementById("im-fr").addEventListener("click", function(){
+    if (sessionStorage.getItem('buttonClicked') === 'true') 
+      window.location.href = "lait.html";  
+    sessionStorage.setItem('buttonClicked', 'false');
+  }); 
+  document.getElementById('im-ar').addEventListener('click', function(){
+    sessionStorage.setItem('buttonClicked', 'true');
+  });
+  if (sessionStorage.getItem('buttonClicked') === 'true') 
+  {
+    Larabe();
+  }
+  
+</script>
+</html>
