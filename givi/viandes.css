@@ -290,3 +290,87 @@ hr{
 {
   height: 155px;
 }
+
+#tt-doc 
+{
+  font-size: 40px; 
+  margin-left: 100px; 
+  color: var(--vgv);
+}
+
+#li-doc 
+{
+  margin-left: 100px;
+  width: 100px;
+  color: var(--vgv); 
+}
+
+.m-dc 
+{
+  margin-bottom: 20px;
+  color: black;
+}
+
+.m-dc:hover 
+{
+  border-bottom: solid thin;
+}
+
+#ls-dc 
+{
+  list-style: disc inside;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+#tt-st 
+{
+  font-size: 40px; 
+  margin-left: 100px;
+  margin-top: 30px; 
+  color: var(--vgv);
+}
+
+#li-st 
+{
+  width: 100px; 
+  border: solid 2px var(--vgv); 
+  margin-bottom: 20px; 
+}
+
+#tx-po 
+{
+  margin-left: 110px;
+  margin-bottom: 10px;
+}
+
+#tt-po 
+{
+  color: var(--vgv); 
+  font-size: 25px; 
+  margin-left: 110px;
+  margin-bottom: 5px;
+}
+
+#te-po 
+{
+  font-style: italic; 
+  margin-left: 110px;
+}
+
+#st-po, th, td 
+{
+  border: solid thin;
+  text-align: center; 
+  padding: 5px; 
+  margin-left: 110px; 
+  margin-top: 20px;
+}
+
+.sc 
+{
+  margin-left: 110px; 
+  margin-top: 5px;
+  font-style: italic;
+}
+

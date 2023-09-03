@@ -1,0 +1,33 @@
+#tt-doc 
+{
+  font-size: 40px; 
+  margin-left: 100px; 
+  color: var(--vgv);
+  margin-top: 20px;
+}
+
+#li-doc 
+{
+  margin-left: 100px;
+  width: 100px;
+  color: var(--vgv); 
+  border: solid 2px; 
+}
+
+.m-dc 
+{
+  margin-bottom: 20px;
+  color: black;
+}
+
+.m-dc:hover 
+{
+  border-bottom: solid thin;
+}
+
+#ls-dc 
+{
+  list-style: disc inside;
+  margin-left: 110px;
+  margin-top: 20px;
+}

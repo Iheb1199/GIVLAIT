@@ -1,0 +1,621 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'Lato'; 
+  box-sizing: border-box; 
+}
+
+:root 
+{
+  --vgv: #039B13;
+}
+
+#li 
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#li-im 
+{
+  font-size: 17px;   
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  margin-left: 740px;
+  border-bottom-right-radius: 10px;
+}
+
+#li-dc 
+{
+  font-size: 17px; 
+  margin-left: 700px;  
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  border-bottom-right-radius: 10px;
+}
+
+#li-md
+{
+  font-size: 17px; 
+  margin-left: 20px;  
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  border-bottom-right-radius: 10px;
+}
+
+#li-ct 
+{
+  font-size: 17px; 
+  margin-left: 20px;  
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  border-bottom-right-radius: 10px;
+}
+
+#btn-lt 
+{
+  width: 20px;
+} 
+
+#li-de 
+{
+  font-size: 17px; 
+  margin-left: 20px;  
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  border-radius: 5px;
+}
+
+#form-fc 
+{
+  font-size: 20px; 
+  margin-left: 80px;
+  border: solid thin var(--vgv);
+  padding: 20px;
+  width: 290px;  
+}
+
+#tt-er 
+{
+  font-size: 25px; 
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 355px;  
+  color: var(--vgv);
+}
+
+#tt-dr 
+{
+  font-size: 25px; 
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 386px;  
+  color: var(--vgv);
+}
+
+#tt-dl 
+{
+  font-size: 25px; 
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 470px;  
+  color: var(--vgv);
+}
+
+#ftu 
+{
+  margin-bottom: 20px; 
+  width: 247px;
+  margin-left: 5px;  
+}
+
+#msg-er , #msg-ne , #msg-ex
+{
+  padding: 20px;
+  font-size: 15px; 
+  margin-left: 80px;
+  text-align: center;
+  width: 290px; 
+}
+
+#btn-er 
+{
+  margin-left: 80px; 
+  padding: 3px; 
+  cursor: pointer;
+}
+
+#btn-el 
+{  
+  border: solid thin;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+#tt-dc 
+{
+  font-size: 25px; 
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px; 
+  border-bottom: solid var(--vgv);
+  width: 355px;  
+  color: var(--vgv);
+}
+
+#tit-fc 
+{
+  font-size: 20px; 
+  margin-left: 50px;
+  border-bottom: solid ;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  color: black;
+  width: 205px; 
+}
+
+#tit-dc 
+{
+  font-size: 20px; 
+  margin-left: 50px;
+  border-bottom: solid ;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  color: black;
+  width: 233px; 
+}
+
+#fc 
+{
+  font-size: 17px; 
+  margin-left: 80px; 
+  text-align: center;
+  border: solid 1px; 
+}
+
+.ef 
+{
+  cursor: pointer; 
+  padding: 2px;
+}
+
+#btn-f 
+{
+  margin-left: 80px; 
+  margin-top: 20px;
+  padding: 5px; 
+  font-size: 15px;
+}
+
+table, th , td 
+{
+  border: solid 1px;
+  padding: 5px;
+}
+
+#tt-aj 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 293px;  
+  color: var(--vgv);
+}
+
+#fm-aj 
+{
+  border: solid thin var(--vgv);
+  margin-left: 100px;
+  width: 35%;
+  padding: 5px;
+}
+
+#fm-aj input 
+{
+  width: 100%; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+#btn-aj 
+{
+  margin-left: 190px; 
+  padding: 4px; 
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#ms 
+{
+  text-align: center;
+  width: 35%; 
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#tt-act 
+{
+  font-size: 20px; 
+  margin-left: 50px;
+  border-bottom: solid ;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  color: black;
+  width: 232px;
+}
+
+#tab-ac 
+{
+  font-size: 17px; 
+  margin-left: 80px; 
+  text-align: center;
+  border: solid 1px; 
+}
+
+#li-mi 
+{
+  font-size: 17px; 
+  margin-left: 950px; 
+  padding: 5px;
+  color: black;
+  border: solid var(--vgv); 
+  border-bottom-right-radius: 10px;
+}
+
+#fo-md 
+{
+  width: 30%;
+  margin-left: 150px;
+  margin-top: 100px; 
+  border: solid thin var(--vgv);
+  text-align: center; 
+  padding: 30px; 
+}
+
+#fdl 
+{
+  font-size: 20px; 
+  margin-left: 80px;
+  border: solid thin var(--vgv);
+  padding: 20px;
+  width: 290px;
+  text-align: center; 
+}
+
+#nm-dl 
+{
+  height: 30px;
+  width: 90%; 
+  margin-bottom: 20px;
+}
+
+#btn-dl 
+{
+  padding: 4px;
+}
+
+.blt 
+{
+  width: 40px;
+}
+
+#tt-tel
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 590px;  
+  color: var(--vgv);
+}
+
+#tb-el 
+{
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+}
+
+#bt-mdi, #val-el, #cx, #btn-mdd, #tx-sr
+{
+  padding: 4px;
+}
+
+#bt-mdi, #btn-mdd 
+{
+  margin-top: 15px;
+}
+
+#mss 
+{
+  margin-left: 100px;
+}
+
+#tt-rp 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 660px;  
+  color: var(--vgv);
+}
+
+#tb-rp 
+{
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.choix, .nb-rp, .btn-rp 
+{
+  padding: 4px;
+}
+
+#tb-sc 
+{
+  margin-left: 100px; 
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#bt-sc, #tx-sc 
+{
+  padding: 4px;
+}
+
+#tt-prv 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 855px;  
+  color: var(--vgv);
+}
+
+#fm-prv input
+{
+  margin-bottom: 10px; 
+  margin-top: 10px;
+  padding: 4px; 
+}
+
+#fm-prv
+{
+  border: solid thin var(--vgv);
+  width: 15%; 
+  padding: 8px; 
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+#bto-pr 
+{
+  margin-left: 55px; 
+}
+
+.tit-an 
+{
+  font-size: 20px; 
+  margin-left: 50px;
+  border-bottom: solid ;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  color: black;
+  width: 210px;
+}
+
+#tb-mdat 
+{
+  text-align: center; 
+  margin: 30px auto; 
+  width: 90%;  
+}
+
+.elm 
+{
+  padding: 4px;
+}
+
+#efat 
+{
+  margin-left: 65px; 
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#sc-pr, #sc-lpr, #sc-ev, #sc-cl, #sc-tr
+{
+  text-align: center; 
+  padding: 10px; 
+  margin-left: 65px; 
+  margin-bottom: 20px;
+}
+
+#tit-bv 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 775px;  
+  color: var(--vgv);
+}
+
+#fr-bv 
+{
+  border: solid thin var(--vgv);
+  width: 15%; 
+  padding: 10px;
+  margin-left: 310px;
+}
+
+#fr-bv input
+{
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  padding: 4px;
+}
+
+#md-bv 
+{
+  margin-left: 55px;
+}
+
+#tbl-bv 
+{
+  text-align: center; 
+  padding: 5px;
+  width: 70%; 
+  margin: 20px auto;
+}
+
+#tit-ev 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 885px;  
+  color: var(--vgv); 
+}
+
+#fr-ev 
+{
+  border: solid thin var(--vgv);
+  width: 15%; 
+  padding: 10px;
+  margin-left: 330px;
+  margin-bottom: 20px;  
+}
+
+#fr-ev input
+{
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  padding: 4px;
+}
+
+#sc-lpr 
+{
+  margin-left: 200px;
+}
+
+#md-ev 
+{
+  margin-left: 60px;
+}
+
+#tbl-ev 
+{
+  text-align: center; 
+  padding: 5px;
+  width: 90%; 
+  margin: 20px auto;
+}
+
+#tit-qt 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 845px;  
+  color: var(--vgv);
+}
+
+#fr-qt 
+{
+  border: solid thin var(--vgv);
+  width: 15%; 
+  padding: 10px;
+  margin-left: 330px;
+  margin-bottom: 20px;  
+}
+
+#fr-qt input
+{
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  padding: 4px;
+}
+
+#md-qt 
+{
+  margin-left: 55px;
+}
+
+
+#tbl-cl 
+{
+  text-align: center; 
+  padding: 5px;
+  width: 70%;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+#tit-tr 
+{
+  font-size: 30px; 
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid var(--vgv);
+  width: 750px;  
+  color: var(--vgv);
+}
+
+#fr-tr 
+{
+  border: solid thin var(--vgv);
+  width: 15%; 
+  padding: 12px;
+  margin-left: 310px;
+}
+
+#fr-tr input 
+{
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  padding: 4px;
+}
+
+#md-tr 
+{
+  margin-left: 58px;
+  margin-bottom: 20px;
+  
+}
+
+#tbl-tr 
+{
+  text-align: center; 
+  padding: 5px;
+  width: 70%; 
+  margin-left: 65px;
+  margin-bottom: 20px;
+}

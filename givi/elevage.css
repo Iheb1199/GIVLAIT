@@ -126,6 +126,54 @@
 	font-size: 18px;
 }
 
+#tt-st 
+{
+	color: var(--vgv);
+	margin-top: 20px;
+	margin-left: 65px; 
+	font-size: 27px;
+}
+
+.tit 
+{
+	color: var(--vgv);
+	margin-top: 20px;
+	margin-left: 65px; 
+	font-size: 23px;
+}
+
+.bdr 
+{
+	border: none;
+}
+
+.tb-elv , th, td
+{
+	border: solid thin; 
+	text-align: center;
+	padding: 10px;
+}
+
+.tb-elv 
+{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.sc 
+{
+	margin-left: 70px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+
+#tx-ef 
+{
+	margin-left: 65px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
 
 
 
